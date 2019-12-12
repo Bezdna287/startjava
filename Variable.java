@@ -1,20 +1,21 @@
 public class Variable {
 	public static void main(String[] args){
-		byte b = 64;
-		short sh = 4750;
-		int i = 95800;
-		long l = 159623478;
-		float f = 1.56f;
-		double d = 12.698751;
-		char ch ='C';
-		boolean boo = false;
-		System.out.println(b);
-		System.out.println(sh);
-		System.out.println(i);
-		System.out.println(l);
-		System.out.println(f);
-		System.out.println(d);
-		System.out.println(ch);
-		System.out.println(boo);
+		byte os = 64;
+		short version = 1903;
+		int prodID = 95800;
+		long deviceID = 159623478;
+		float insRam = 7.89f;
+		double osBuild = 18362.476;
+		char processor ='I';
+		boolean penTouch = false;
+		
+		System.out.println(os);
+		System.out.println(version);
+		System.out.println(prodID);
+		System.out.println(deviceID);
+		System.out.println(insRam);
+		System.out.println(osBuild);
+		System.out.println(processor);
+		System.out.println(penTouch);
 	}
 }
