@@ -1,5 +1,5 @@
 public class Variable {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		byte os = 64;
 		short version = 1903;
 		int prodID = 95800;
