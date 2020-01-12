@@ -1,13 +1,13 @@
 public class Variable {
-	public static void main(String[] args){
-		byte os = 64;
+	public static void main(String[] args) {
+		byte systemType = 64;
 		short version = 1903;
 		int prodID = 95800;
 		long deviceID = 159623478;
-		float insRam = 7.89f;
+		float installedMemoryRam = 7.89f;
 		double osBuild = 18362.476;
-		char processor ='I';
-		boolean penTouch = false;
+		char processor ='Intel Core';
+		boolean isPenTouch = false;
 		
 		System.out.println(os);
 		System.out.println(version);
